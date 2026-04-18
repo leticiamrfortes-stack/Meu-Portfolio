@@ -3,37 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Portfólio</title>
+  <title>Portfólio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <nav>
+  <header>
     <h1>Meu Portfólio</h1>
-    <ul>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#projetos">Projetos</a></li>
-    </ul>
-  </nav>
-</header>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+    </nav>
+  </header>
 
-<main>
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p>Sou estudante de desenvolvimento web.</p>
-  </section>
+  <main>
+    <section id="sobre" class="sobre">
+  <div class="sobre-container">
+    <img src="foto.jpg" alt="Foto de perfil" class="foto-perfil">
 
-  <section id="projetos">
-    <h2>Meus Projetos</h2>
-    <div id="lista-projetos"></div>
-  </section>
-</main>
+    <div>
+      <h2>Sobre mim</h2>
+      <p>
+        Olá! Meu nome é Letícia Fortes. Sou estudante do curso de Sistemas para Internet da UESPI/UAPI. 
+      </p>
+    </div>
+  </div>
+</section>
 
-<footer>
-  <p>© 2026 - Meu Nome</p>
-</footer>
+    <section id="projetos">
+      <h2>Meus Projetos</h2>
+      <div id="lista-projetos"></div>
+    </section>
+  </main>
 
-<script src="script.js"></script>
+  <footer>
+    <p>© 2026 - Meu Portfólio</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
